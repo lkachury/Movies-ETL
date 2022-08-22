@@ -21,6 +21,7 @@ Background:
   - Python Numpy Library
   - Python re Library
   - sqlalchemy Module 
+  - psycopg2 Module
 
 ## Results
 
