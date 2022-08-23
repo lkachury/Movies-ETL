@@ -45,19 +45,18 @@ The function converts the MovieLens ratings data file to a Pandas DataFrame:
 Using Python, Pandas, the ETL process, and code refactoring, the Wikipedia data was extracted and transformed to merge it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, a try-except block to catch errors was used.
 The full Jupyter Notebook for this deliverable can be referenced here: [ETL_clean_wiki_movies.ipynb](https://github.com/lkachury/Movies-ETL/blob/main/ETL_clean_wiki_movies.ipynb)
 
-The TV shows are filtered out, and the wiki_movies_df DataFrame is created:
-
+The TV shows are filtered out, and the wiki_movies_df DataFrame was created with the following code:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186067812-e2533e0c-019f-4f52-86fa-691a4432859f.png)
 
 A try-except block was used to catch errors while extracting the IMDb IDs with a regular expression and dropping duplicate IDs:
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186067986-d23b3b95-9cd7-43d0-9c34-d0e161e80bde.png)
 
 Extraction and transformation of the Wikipedia data in the ETL function:
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186068153-e896e817-431c-45a0-b7ec-363f64e5f579.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186068271-1fb18829-e738-407f-9753-3496e6e9a2ba.png)
 
 The cleaned Wikipedia data is converted to a Pandas DataFrame:
-
-
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186068400-0f3a20b2-86cb-49d8-abf5-18bdc2ad0f73.png)
 
 ### Deliverable 3: Extract and Transform the Kaggle Data
 Using Python, Pandas, the ETL process, and code refactoring, the Kaggle metadata and MovieLens rating data were extracted and transformed to convert into separate DataFrames. The Kaggle metadata DataFrame was merged with the Wikipedia movies DataFrame to create the movies_df DataFrame. The MovieLens rating data DataFrame was merged with the movies_df DataFrame to create the movies_with_ratings_df.
