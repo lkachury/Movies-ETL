@@ -43,7 +43,7 @@ The function converts the MovieLens ratings data file to a Pandas DataFrame:
 
 ### Deliverable 2: Extract and Transform the Wikipedia Data
 Using Python, Pandas, the ETL process, and code refactoring, the Wikipedia data was extracted and transformed to merge it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, a try-except block to catch errors was used.
-The full Jupyter Notebook for this deliverable can be referenced here: []()
+The full Jupyter Notebook for this deliverable can be referenced here: [ETL_clean_wiki_movies.ipynb]()
 
 
 
