@@ -30,16 +30,16 @@ Using Python, Pandas, the ETL process, and code refactoring, a function was writ
 The full Jupyter Notebook for this deliverable can be referenced here: [ETL_function_test.ipynb](https://github.com/lkachury/Movies-ETL/blob/main/ETL_function_test.ipynb)
 
 An ETL function was written to read in the three data files with the following code:
-![image](https://user-images.githubusercontent.com/108038989/186045392-8326d522-01ff-4845-98fa-23d1e78ea69a.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186045392-8326d522-01ff-4845-98fa-23d1e78ea69a.png)
 
 The function converts the Wikipedia JSON file to a Pandas DataFrame:
-![image](https://user-images.githubusercontent.com/108038989/186045508-bd46e001-665d-462d-a4bd-46b59f8e3bc0.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186045508-bd46e001-665d-462d-a4bd-46b59f8e3bc0.png)
 
 The function converts the Kaggle metadata file to a Pandas DataFrame:
-![image](https://user-images.githubusercontent.com/108038989/186045547-05d05aa5-9e23-4642-b1a2-91083b5dcc55.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186045547-05d05aa5-9e23-4642-b1a2-91083b5dcc55.png)
 
 The function converts the MovieLens ratings data file to a Pandas DataFrame:
-![image](https://user-images.githubusercontent.com/108038989/186045585-3d0378d5-d651-4c4d-84c0-12876ed4ca54.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186045585-3d0378d5-d651-4c4d-84c0-12876ed4ca54.png)
 
 ### Deliverable 2: Extract and Transform the Wikipedia Data
 Using your knowledge of Python, Pandas, the ETL process, and code refactoring, extract and transform the Wikipedia data so you can merge it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, use a try-except block to catch errors.
