@@ -26,7 +26,10 @@ Background:
 ## Results
 
 ### Deliverable 1: Write an ETL Function to Read Three Data Files
-Using your knowledge of Python, Pandas, the ETL process, and code refactoring, write a function that reads in the three data files and creates three separate DataFrames.
+Using Python, Pandas, the ETL process, and code refactoring, a function was written that reads in the three data files and creates three separate DataFrames.
+The full Jupyter Notebook for this deliverable can be referenced here: [ETL_function_test.ipynb](https://github.com/lkachury/Movies-ETL/blob/main/ETL_function_test.ipynb)
+
+
 
 ### Deliverable 2: Extract and Transform the Wikipedia Data
 Using your knowledge of Python, Pandas, the ETL process, and code refactoring, extract and transform the Wikipedia data so you can merge it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, use a try-except block to catch errors.
