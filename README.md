@@ -1,8 +1,6 @@
 # Movies-ETL
 
 ## Overview
-
-Background:
 Amazing Prime is an online video streaming company sponsoring a hackathon with a clean data set of movie data to predict which low budget movies are more likely to become popular so that the company can purchase the streaming rights to those films for a bargain price. The purpose of this analysis is to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
 
 ## Resources
