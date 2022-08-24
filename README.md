@@ -3,7 +3,7 @@
 ## Overview
 
 Background:
-"Amazing Prime loves the dataset and wants to keep it updated on a daily basis. Britta needs your help to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. You’ll need to refactor the code from this module to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database."
+Amazing Prime is an online video streaming company sponsoring a hackathon with a clean data set of movie data to predict which low budget movies are more likely to become popular so that the company can purchase the streaming rights to those films for a bargain price. The purpose of this analysis is to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
 
 ## Resources
 ### Data Source 
@@ -85,3 +85,6 @@ The data from the MovieLens rating CSV file is added to the ratings table in the
 
 The elapsed time to add the data to the database is displayed: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/186311493-8e54d0e6-367c-48fb-ab4a-c7039100224e.png)
+
+## Summary
+The module code was refactored to create a function that takes in the three files (Wikipedia data, Kaggle metadata, and the MovieLens rating data) and performs the ETL process by adding the data to a PostgreSQL database.
