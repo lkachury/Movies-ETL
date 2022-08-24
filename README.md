@@ -88,6 +88,4 @@ ratings_query.png.
 
 
 The elapsed time to add the data to the database is displayed: 
-<br /> ![image](https://user-images.githubusercontent.com/108038989/186311200-f839cfc5-ed8e-4443-8722-399fe77268be.png)
-
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186311493-8e54d0e6-367c-48fb-ab4a-c7039100224e.png)
