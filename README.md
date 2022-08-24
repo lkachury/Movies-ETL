@@ -60,9 +60,18 @@ The cleaned Wikipedia data is converted to a Pandas DataFrame:
 
 ### Deliverable 3: Extract and Transform the Kaggle Data
 Using Python, Pandas, the ETL process, and code refactoring, the Kaggle metadata and MovieLens rating data were extracted and transformed to convert into separate DataFrames. The Kaggle metadata DataFrame was merged with the Wikipedia movies DataFrame to create the movies_df DataFrame. The MovieLens rating data DataFrame was merged with the movies_df DataFrame to create the movies_with_ratings_df.
-The full Jupyter Notebook for this deliverable can be referenced here: []()
+The full Jupyter Notebook for this deliverable can be referenced here: [ETL_clean_kaggle_data.ipynb](https://github.com/lkachury/Movies-ETL/blob/main/ETL_clean_kaggle_data.ipynb)
 
+Extraction and transformation of the Kaggle metadata using the ETL function:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186295461-b64698f3-3fab-4d68-99f9-fa02046b9fb4.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186295566-24b596e2-baaf-4b64-a800-77087e1bcb7f.png)
 
+Extraction and transformation of the MovieLens ratings data using the ETL function:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186295348-d0c31a1e-7205-4dd6-9291-95a964907fdc.png)
+
+The movies_with_ratings_df and the movies_df DataFrames are displayed:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186295221-fc14a77f-6727-47f2-afbc-80bda43b4b00.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186295266-fd8773fa-7b39-48af-b9a9-3bb8f9941a20.png)
 
 ### Deliverable 4: Create the Movie Database
 using Python, Pandas, the ETL process, code refactoring, and PostgreSQL the movies_df DataFrame and MovieLens rating CSV data were added to a SQL database.
