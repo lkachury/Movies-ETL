@@ -78,14 +78,10 @@ Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL the movi
 The full Jupyter Notebook for this deliverable can be referenced here: [ETL_create_database.ipynb](https://github.com/lkachury/Movies-ETL/blob/main/ETL_create_database.ipynb)
 
 The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database:
-movies_query.png
-
-
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186312053-01dcea70-b614-4814-b288-6be6473932ab.png)
 
 The data from the MovieLens rating CSV file is added to the ratings table in the SQL database:
-ratings_query.png. 
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/186312277-d12c20b0-c739-45f8-ba53-5cd3d595a225.png)
 
 The elapsed time to add the data to the database is displayed: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/186311493-8e54d0e6-367c-48fb-ab4a-c7039100224e.png)
