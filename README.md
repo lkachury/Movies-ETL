@@ -74,8 +74,8 @@ The movies_with_ratings_df and the movies_df DataFrames are displayed:
 <br /> ![image](https://user-images.githubusercontent.com/108038989/186295266-fd8773fa-7b39-48af-b9a9-3bb8f9941a20.png)
 
 ### Deliverable 4: Create the Movie Database
-using Python, Pandas, the ETL process, code refactoring, and PostgreSQL the movies_df DataFrame and MovieLens rating CSV data were added to a SQL database.
-The full Jupyter Notebook for this deliverable can be referenced here: [ETL_create_database.ipynb]()
+Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL the movies_df DataFrame and MovieLens rating CSV data were added to a SQL database.
+The full Jupyter Notebook for this deliverable can be referenced here: [ETL_create_database.ipynb](https://github.com/lkachury/Movies-ETL/blob/main/ETL_create_database.ipynb)
 
 The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database:
 movies_query.png
