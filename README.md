@@ -5,7 +5,8 @@ Amazing Prime is an online video streaming company sponsoring a hackathon with a
 
 ## Resources
 ### Data Source 
-- ?
+- Wikipedia Movie Data: [JSON file](https://github.com/lkachury/Movies-ETL/blob/main/Resources/wikipedia-movies.json) 
+- Kaggle Datasets: "movies_metadata" and "ratings" [csv files](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download)
 
 ### Software
 - Python 3.7.6
