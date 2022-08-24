@@ -75,7 +75,17 @@ The movies_with_ratings_df and the movies_df DataFrames are displayed:
 
 ### Deliverable 4: Create the Movie Database
 using Python, Pandas, the ETL process, code refactoring, and PostgreSQL the movies_df DataFrame and MovieLens rating CSV data were added to a SQL database.
-The full Jupyter Notebook for this deliverable can be referenced here: []()
+The full Jupyter Notebook for this deliverable can be referenced here: [ETL_create_database.ipynb]()
+
+The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database:
+movies_query.png
 
 
+
+
+The data from the MovieLens rating CSV file is added to the ratings table in the SQL database:
+ratings_query.png. 
+
+
+The elapsed time to add the data to the database is displayed: 
 
